@@ -9,4 +9,4 @@ def make_multiplier(multiplier: float) -> Callable[[float],float]:
     def multiply(n: float):
         """Multiply n by multiplier."""
         return n * multiplier
-    return multiply    
+    return multiply
