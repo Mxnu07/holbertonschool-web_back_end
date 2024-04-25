@@ -3,7 +3,8 @@
 from typing import Callable, Union
 
 
-def make_multiplier(multiplier: float) -> Callable[[Union[int, float]], float]:
+def make_multiplier(multiplier: float) -> Callable[[Union[int, float]],
+                                                   float]:
     """Returns a function that multiplies a float by multiplier."""
 
     def multiply(n: Union[int, float]) -> float:
