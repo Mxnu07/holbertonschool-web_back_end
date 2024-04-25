@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """This module defines a function that adds two float."""
 import asyncio
 from time import perf_counter
