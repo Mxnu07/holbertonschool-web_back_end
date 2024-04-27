@@ -8,5 +8,5 @@ async_generator = __import__('0-async_generator').async_generator
 
 async def async_comprehension() -> ValueR:
     """ async comprehension """
-    rnd = [i async for i in async_generator()]
+    rnd = [float(i) async for i in async_generator()]
     return rnd
