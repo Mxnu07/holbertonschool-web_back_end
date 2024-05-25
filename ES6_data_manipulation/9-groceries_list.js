@@ -1,8 +1,10 @@
 function groceriesList() {
   const groceries = new Map();
-  groceries.set('apple', 5);
-  groceries.set('banana', 3);
-  groceries.set('milk', 2);
+  groceries.set('Apple', 10);
+  groceries.set('Tomatoes', 10);
+  groceries.set('Pasta', 1);
+  groceries.set('Rice', 1);
+  groceries.set('Banana', 5);
 
   return groceries;
 }
