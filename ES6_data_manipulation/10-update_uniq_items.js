@@ -1,4 +1,4 @@
-function updateUniqueItems(map){
+function updateUniqueItems(map) {
   if (!(map instanceof Map)) {
     throw Error('Cannot process');
   }
